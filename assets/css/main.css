@@ -83,3 +83,12 @@ hr.e6 {
     background: #000;
     color: #fff;
 }
+
+#query_status {
+    margin: 10px 0;
+    display: none;
+}
+#final_status {
+    display: none;
+}
+
