@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Room FInder</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/main.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div id="header">
+    <h1>Welcome to BookingApp</h1>
+  </div>
+  <div class="container">
+    <!--     <Select Room Category -->    
+    <h2>What do you need a room for?</h2>  
+    <div id="select-categories">
+      <div class="row">
+        <div id="meetings" class="col-md-4">
+          <img src="assets/images/meeting.jpeg" width="100%"> 
+          <div class="room_name">
+            Meetings
+          </div>       
+        </div>
+        <div id="games" class="col-md-4">
+          <img src="assets/images/games.jpeg" width="100%">
+          <div class="room_name">
+            Games
+          </div>
+        </div>
+        <div id="quiet-time" class="col-md-4">
+          <img src="assets/images/quiet-time.jpeg" width="100%"> 
+          <div class="room_name">
+            Quiet Time
+          </div>       
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="row">
+        <div id="learning" class="col-md-4">
+          <img src="assets/images/learning.png" width="100%">
+          <div class="room_name">
+            Learning
+          </div>
+        </div>
+        <div id="working" class="col-md-4">
+          <img src="assets/images/work.jpeg" width="100%"> 
+          <div class="room_name">
+            Working
+          </div>       
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/info.jpg" width="100%">
+        </div>
+        <div id="" class="clearfix"></div>
+      </div>
+    </div>
+
+    <!--     Select Number of rooms -->      
+    <div id="query_status" class="row">
+      <div class="col-md-12">
+        <div class="alert alert-success">
+          <h2>Congratulations! There is a room available</h2>      
+        </div>
+        <div class="alert alert-danger">
+          <h2>Sorry, All rooms for this category are booked</h2>      
+        </div>
+        <div>
+          <h2>Find Your Room Details Below:</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th width="40%">Description</th>
+                <th width="60%">Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Room Type</td>
+                <td>Silver</td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="btn btn-lg btn-success" type="button">Check In</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="final_status">
+      <div class="alert alert-success">
+        <h2>Congratulations! Your Room has been Reserved</h2>      
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container">
+      &copy 2017 Andela Group 5 (Subgroup 1)
+    </div>
+  </div>
+
+</body>
+</html>
