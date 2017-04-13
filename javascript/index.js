@@ -2,8 +2,6 @@ function room(roomNum){
 	this.rooms = data.rooms;
 	this.roomNum = roomNum;
 
- 	
-
 	room.prototype.isAvailable = function(){
 		for(i=0; i<rooms.length; i++){
 			if(rooms[i].isavailable == 'true'){
